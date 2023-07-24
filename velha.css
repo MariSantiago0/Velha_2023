@@ -1,0 +1,93 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/85/bd/35/85bd35685f22b6e027a7c83a93293033.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: center;
+  background-color: rgb(250, 200, 209);
+  margin:auto;
+}
+
+.cell{
+  width: 55px;
+  height: 55px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 55px;
+  font-size: 40px;
+  cursor:pointer;
+}
+
+#velhaContainer{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  margin-top:110px;
+  color:#da6bcb;
+}
+
+#cellContainer{
+  display: grid;
+  grid-template-columns:repeat(3, auto);
+  justify-content: center;
+  width:155px;
+  margin: auto;
+  margin-top: 190px;
+}
+/* Estilos básicos do botão */
+.restartbtn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size:medium;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  background-color: #da6bcb;
+  color: #fff4f4;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+  margin:0;
+}
+
+/* Efeito hover */
+.restartbtn:hover {
+  background-color: #cf85c9;
+}
+
+/* Efeito de pressionar o botão */
+.restartbtn:active {
+  background-color: #e35ae7;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo de texto interno no botão */
+.restartbtn span {
+  display: inline-block;
+  position: relative;
+}
+
+/* Estilo do texto "press start" dentro do botão */
+.restartbtn span::before {
+  content: "PRESS ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+}
+
+.restartbtn span::after {
+  content: " START";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+}
+
+
+
+.take{
+  width:200px;
+  height:200px;
+  padding-left: 1000px;
+}
+
